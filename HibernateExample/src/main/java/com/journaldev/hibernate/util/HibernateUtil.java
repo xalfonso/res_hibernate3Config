@@ -8,7 +8,9 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 
 import com.journaldev.hibernate.model.Employee1;
-
+/**
+ This way of configuration of session factory do not work for hibernate 5
+**/
 public class HibernateUtil {
 
     //XML based configuration
